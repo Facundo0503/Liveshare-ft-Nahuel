@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(137, 43, 226, 0.671); */
+    background: rgb(136,132,205);
+background: linear-gradient(90deg, rgba(136,132,205,1) 0%, rgba(152,30,208,1) 47%, rgba(0,212,255,1) 100%);
+}
+
+#illustration{
+    position: absolute;
+    width: 400px;
+    display: flex;
+    left: 60%;
+    top: 10%;
+}
+
+.primary_container{
+    width: 85vw;
+    height: 95vh;
+    margin: 30px;
+    /* background-color: rgba(137, 43, 226, 0.89); */
+    /* background-image: url(./images/background-body.png); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.685);
+}
+
+.navbar{
+    width: 100%;
+    height:90px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.logo{
+    width: 50px;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ************************* */
+
+.menu, .menu_login{
+    display: flex;
+    /* gap:10px; */
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: 'Poppins',san;
+}
+.menu{
+    height: 60px;
+    width:550px;
+    display:flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+/* ****************************** */
+.menu_login{
+    width: 300px;
+}
+
+
+.link_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration:none;
+    width:120px;
+    height:45px;
+    /* background-color: aqua; */
+    color: #ffff;
+    transition: 0.2;
+}
+.link_nav:hover{
+    border-bottom: 2px solid #ffffff ;
+    
+}
+
+.signup-link{
+    background-color: rgba(255, 255, 255, 0.26) ;
+    border-radius: 20px; 
+         
+}
+.signup-link:hover{
+    background-color: ;
+    border: none;
+}
+
+
+
+
+
+/* ************************* */
+
+.search-container{
+    display: flex;
+    justify-content: left;
+    font-family: "Open Sans";
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.search-content{
+
+}
+
+.search-title{
+    font-size: 20px;
+    color: rgb(184, 179, 179);
+}
+
+.search-title2{
+    margin-top: 30px;
+    font-size: 40px;
+    width: 670px;
+ 
+}
+
+.search{
+    margin-top: 80px;
+    width: 600px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.733);
+}
+
+#icon-search{
+    position: absolute;
+    margin-top: 99px;
+    margin-left: 555px;
+    transform: scale(2);
+}
+
+::placeholder{
+    margin-left: -50px;
+}
+
+.box-container{
+    margin-top: 100px;
+}
+
+.first-text-card{
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: rgba(44, 6, 6, 0.651);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.box-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 450px;
+    display: flex;
+    margin-bottom: 40px;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Poppins";
+    border-radius: 5px;
+    box-shadow: 5px 6px 6px 1px rgba(0, 0, 0, 0.795);
+}
+
+.div-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    /* overflow: hidden; */
+}
+
+.pic{
+    width: 100px;
+    align-items: center;
+    /* margin-left: 35%;
+    margin-top: 20px; */
+}
+
+#dropbox-pic{
+   /* margin-top: 15px; */
+   height: 100px;
+}
+
+.product-tittle{
+    /* margin-top: 50px; */
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.industry{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgba(128, 128, 128, 0.719);
+}
+
+.location-text{
+ margin-left: 20px;
+ color: rgba(128, 128, 128, 0.568);
+}
+
+.price{
+    margin-left: 20px;
+    background: linear-gradient(rgb(72, 38, 126),rgb(182, 17, 146));
+    -webkit-background-clip: text;
+    color: transparent;  
+    margin-top: 60px;
+    font-size: 35px;
+    width: 120px;
+}
+
+button{
+    border: none;
+}
+
+::placeholder{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.price-text{
+    margin-left: 20px;
+    color: rgba(85, 42, 165, 0.836);
+  font-size: 15px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+
