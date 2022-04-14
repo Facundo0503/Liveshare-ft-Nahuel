@@ -9,41 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- ICONOS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
-    <main class="primary_container">
-        <img src="./images/people_illustration.png" alt="" id="illustration">
+    <header class="container_header">
         <nav class="navbar">
             <div class="logo">
-                <img src="images/achau.png" alt="">
+                <span id="logue">FyN</span>
             </div>
-
-                <ul class="menu">
-                    <li> <a class="link_nav" href="">Home</a> </li>
-                    <li> <a class="link_nav" href="">ABOUT US</a> </li>
-                    <li> <a class="link_nav" href="">BLOG</a> </li>
+                <ul class="menu" id="menu">
+                    <li><a class="link_nav" href="">Home</a> </li>
+                    <li><a class="link_nav" href="">ABOUT US</a> </li>
+                    <li><a class="link_nav" href="">BLOG</a> </li>
                     <li><a class="link_nav" href="">HOW IT WORKS?</a></li>
                 </ul> 
-
-                <div class="container_login">
                     <ul class="menu_login">
                         <li><a class="link_nav" href="">LOG IN</a></li>
                         <li><a class="link_nav signup-link" href="">SIGN UP</a></li>
                     </ul>
-                </div>
+                    <img src="images/menu_logo.png" alt="" class="burguer_menu" id="burguer">
         </nav>
-        
+    </header>
+    <div class="main-container">
+    <main class="primary_container">
         <div class="search-container">
             <div class="search-content">
-             <h2 class="search-title">INNOVATIVE SOLUTION FOR SOURCING CANDIDATES</h2>
-             <p class="search-title2">Help us find <b>the missing puzzle, get rewarded</b> properly.</p>
-              <i id="icon-search" class="fa fa-search" aria-hidden="true"></i>
-             <input type="search" name="search" id="search" class="search" placeholder="Keyword, job title or company">
-              <label for=""></label>
+                <h2 class="search-title">INNOVATIVE SOLUTION FOR SOURCING CANDIDATES</h2>
+                <p class="search-title2">Help us find the missing puzzle, get rewarded properly.</p>
+                <input type="search" name="search" id="search" class="search" placeholder="Keyword, job title or company">
+                <label for="search"></label>
+            </div>
+            <div class="img_search">
+                <img src="./images/people_illustration.png" alt="" id="illustration">
             </div>
         </div>
-
-        
         <div class="box-container">
             <h2 class="first-text-card">RECENTLY ADDED JOBS:</h2>
             <div class="box-content">
@@ -52,73 +51,79 @@
                     <img src="./images/hermes.png" alt="" class="pic">
                     </div>
                     <div class="card-text">
-                     <h2 class="product-tittle">Art Director</h2>
-                     <h2 class="industry">Hermes International S.A</h2>
-                     <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Harrisburg, Pennsylvania</b></p>
+                        <h2 class="product-tittle">Art Director</h2>
+                        <h2 class="industry">Hermes International S.A</h2>
+                        <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Harrisburg, Pennsylvania</b></p>
                     </div>
                     <div class="card-button">
-                     <button class="price">$1,980</button>
-                     <p class="price-text">of hiring reward</p>
+                        <button class="price">$1,980</button>
+                        <p class="price-text">of hiring reward</p>
                     </div>
                 </div>
+
                 <div class="card">
-                   <div class="div-pic">
+                    <div class="div-pic">
                     <img src="./images/coca.png" alt="" class="pic">
-                   </div>
-                   <div class="card-text">
-                    <h2 class="product-tittle">HR Head of Operations</h2>
-                    <h2 class="industry">The Coca-Cola Company</h2>
-                    <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Atlanta, Georgia</b></p>
-                   </div>
-                   <div class="card-button">
+                    </div>
+                    <div class="card-text">
+                        <h2 class="product-tittle">HR Head of Operations</h2>
+                        <h2 class="industry">The Coca-Cola Company</h2>
+                        <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Atlanta, Georgia</b></p>
+                    </div>
+                    <div class="card-button">
                     <button class="price">$1,240</button>
                     <p class="price-text">of hiring reward</p>
-                   </div>
+                    </div>
                 </div>
+
                 <div class="card">
                     <div class="div-pic">
-                     <img src="./images/dropbox.png" alt="" class="pic" id="dropbox-pic">
+                        <img src="./images/dropbox.png" alt="" class="pic" id="dropbox-pic">
                     </div>
                     <div class="card-text">
-                     <h2 class="product-tittle">Business Strategy Associate</h2>
-                     <h2 class="industry">Dropbox, Inc.</h2>
-                      <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>San Francisco, California</b></p>
+                        <h2 class="product-tittle">Business Strategy Associate</h2>
+                        <h2 class="industry">Dropbox, Inc.</h2>
+                        <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>San Francisco, California</b></p>
                     </div>
                     <div class="card-button">
-                     <button class="price">$3,100</button>
-                     <p class="price-text">of hiring reward</p>
+                        <button class="price">$3,100</button>
+                        <p class="price-text">of hiring reward</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="div-pic">
-                     <img src="./images/mcdonalds.png" alt="" class="pic">
+                        <img src="./images/mcdonalds.png" alt="" class="pic">
                     </div>
                     <div class="card-text">
-                     <h2 class="product-tittle">Financial Analyst</h2>
-                     <h2 class="industry">McDonald's Corporation</h2>
-                     <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Columbus, Ohio</b></p>
+                        <h2 class="product-tittle">Financial Analyst</h2>
+                        <h2 class="industry">McDonald's Corporation</h2>
+                        <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Columbus, Ohio</b></p>
                     </div>
                     <div class="card-button">
                     <button class="price">$1,240</button>
-                     <p class="price-text">of hiring reward</p>
+                        <p class="price-text">of hiring reward</p>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="div-pic">
-                     <img src="./images/netflix.png" alt="" class="pic">
+                        <img src="./images/netflix.png" alt="" class="pic">
                     </div>
                     <div class="card-text">
-                     <h2 class="product-tittle">Senior UX Engineer</h2>
-                     <h2 class="industry">Netflix</h2>
-                     <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>California</b></p>
+                        <h2 class="product-tittle">Senior UX Engineer</h2>
+                        <h2 class="industry">Netflix</h2>
+                        <p class="location-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>California</b></p>
                     </div>
                     <div class="card-button">
-                     <button class="price">$2,600</button>
-                     <p class="price-text">of hiring reward</p>
+                        <button class="price">$2,600</button>
+                        <p class="price-text">of hiring reward</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+</div>
+    <script src="index.js"></script>
 </body>
 </html>
