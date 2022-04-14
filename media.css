@@ -1,189 +1,180 @@
-@media only screen and (max-width: 1400px){
-    
-
+@media only screen and (max-width: 1400px) {
 }
 /* / Escritorio grande / */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 /* / Escritorio pequeño / tablet / */
-@media only screen and (min-width: 1201px) and (max-width: 1400px){
-    #illustration{
-        width: 300px;
-        margin-left: -200px;
-    }
-
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  #illustration {
+    width: 300px;
+    margin-left: -200px;
+  }
+  
 }
 
 /* / Tablets y phablets / */
-@media only screen and (min-width: 801px) and (max-width: 1200px){
-    body{
-        
-    }
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  body {
+  }
 
+  .navbar {
+    margin: auto;
+    width: 90%;
+  }
 
-    .navbar{
+  div .main-container {
+    width: 100%;
+  }
 
-        margin: auto;
-        width: 90%;
-    }
+  div .primary_container {
+    margin: auto;
+    width: 90%;
+  }
 
-    div .main-container{
-        width: 100%;
-    }
-    
-    div .primary_container{
-        margin: auto;
-        width: 90%;
-    }
-
-    #illustration{
-        display: none;
-    }
-
-
-
-    
+  #illustration {
+    display: none;
+  }
 }
 
-/* / Teléfonos */ 
-@media only screen and (min-width: 300px) and (max-width: 800px){
-    body{
-        background-repeat: no-repeat;
-        background: rgba(82, 6, 223, 0.815);
-        margin: auto;
-        width: 100%;
-    }
-    .container_header{
-        justify-content: space-between
-
-    }
-    .navbar{
-        width:100%;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-
-    }
-    .logo{
-        width: 30%;
-        justify-content: center;
-    }
-    .burguer_menu{
-        display: flex;
-        width:10%;
-
-    }
-    .menu{
-        display:none;
-        flex-wrap: wrap;
-        order:4;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 290px;
-        background-color: #181818;       
-        z-index: 4;
-    }
-    .show{
-        display:flex;
-
-    }      .menu li{
-        width:100%;
-        height:60px;
-    }
-    .menu_login{
-         width:50%;
-        height:100%;
-    }
-
-    .menu_login li{
-        width:100%;
-        height: 35%;
-    }
-    
-    
-.link_nav{
-        width:100%;
-        height: 100%;
-        text-align: center;
-    }
-    .link_nav:hover{
+/* / Teléfonos */
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  body {
+    background-repeat: no-repeat;
+    background: rgba(82, 6, 223, 0.815);
+    margin: auto;
     width: 100%;
-    }
+  }
 
+  .container_header {
+    justify-content: space-between;
+  }
 
-    #illustration{
-        display: none;
-    }
+  .navbar {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-    .search-container{
-        margin: auto;
-        width: 100%;
-        padding: 0;
-    }
+  .logo {
+    width: 30%;
+    justify-content: center;
+  }
 
-    .search-content{
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        margin: auto;
+  .burguer_menu {
+    display: flex;
+    width: 10%;
+  }
 
-        z-index:-1;
-    }
+  .menu {
+    display: none;
+    flex-wrap: wrap;
+    order: 4;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 290px;
+    background-color: #181818;
+    z-index: 4;
+  }
 
-    .main-container{
-        height: 100%;
-        margin: auto;
-    }
+  .show {
+    display: flex;
+  }
 
-    .search-title{
-        justify-content: center;
-        text-align: center;
-        max-width: 300px;
-        margin: auto;
-        margin-top: 30px;
-    }
+  .menu li {
+    width: 100%;
+    height: 60px;
+  }
 
-    .search-title2{
-        max-width: 300px;
-        margin: auto;
-        margin-top: 30px;
-        text-align: center;
-        font-size: 25px;
-    }
+  .menu_login {
+    width: 50%;
+    height: 100%;
+  }
 
-    .product-tittle{
-        text-align: center;
-    }
+  .menu_login li {
+    width: 100%;
+    height: 35%;
+  }
 
-    #search{
-        justify-content: center;
-        align-items: center;
-        margin: 30px auto;
-        width: 100%;
-    }
+  .link_nav {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
 
-    .primary_container{
-        width: 90%;
-        height: 100%;
-    }
+  .link_nav:hover {
+    width: 100%;
+  }
 
-    .box-content{
-        flex-direction: column;
-    }
-    
-    .card{
-        justify-content: center;
-        align-items: center;
-        width: 85%;
-        margin: auto;
-        margin-bottom: 35px;
-    }
+  #illustration {
+    display: none;
+  }
 
-    .first-text-card{
-        text-align: center;
-    }
+  .search-container {
+    margin: auto;
+    width: 100%;
+    padding: 0;
+  }
 
+  .search-content {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 1;
+  }
+
+  .main-container {
+    height: 100%;
+    margin: auto;
+  }
+
+  .search-title {
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .search-title2 {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .product-tittle {
+    text-align: center;
+  }
+
+  #search {
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  .primary_container {
+    width: 90%;
+    height: 100%;
+  }
+
+  .box-content {
+    flex-direction: column;
+  }
+
+  .card {
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 35px;
+  }
+
+  .first-text-card {
+    text-align: center;
+  }
 }
