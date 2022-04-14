@@ -230,17 +230,15 @@ body {
 .industry {
   margin-top: 25px;
   font-size: 18px;
-  margin-left: 20px;
   color: rgba(128, 128, 128, 0.719);
 }
 
 .location-text {
-  margin-left: 20px;
   color: rgba(128, 128, 128, 0.568);
 }
 
 .price {
-  margin-left: 20px;
+  text-align: center;
   background: linear-gradient(rgb(72, 38, 126), rgb(182, 17, 146));
   -webkit-background-clip: text;
   color: transparent;
@@ -253,8 +251,11 @@ button {
   border: none;
 }
 
+#ubi{
+    margin-right: 10px;
+}
+
 .price-text {
-  margin-left: 20px;
   color: rgba(85, 42, 165, 0.836);
   font-size: 15px;
 }
